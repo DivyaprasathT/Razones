@@ -314,6 +314,7 @@ body {
 .image_hover:hover .zoom_img_effect {
     -webkit-transform: scale(1.05) translateZ(0);
     transform: scale(1.05) translateZ(0);
+    
 }
 /* ==============================
   3. header top styles
@@ -346,6 +347,7 @@ body {
 }
 .logo {
     text-align: left;
+    
 }
 .logo-sec {
     padding-top: 25px;
@@ -1240,10 +1242,12 @@ a.view-all.slide_learn_btn.view_project_btn {
 img {
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
+    /* height: 40px; */
 }
 .project_img
 {
     background: #000;
+    height: 100px;
 }
 .project_img:hover img {
     opacity: 0.5;
@@ -1293,9 +1297,11 @@ img {
 }
 .our-pro-slider .pro-sliders .post-image img {
     max-width: 100%;
+    height: 100px;
 }
 .our-pro-slider .pro-sliders .item {
     position: relative;
+    height: 240px;
 }
 .our-pro-slider .pro-sliders .item .four_arrow_hover_box {
     top: 0;
@@ -3108,13 +3114,15 @@ img {
 }
 .project-post-image
 {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
+    height: 224.71px;
+    width: 318px;
 }
 .project-post-info a img {
     max-width: 100%;
-    width: 370px;
-    height: 281px;
+    height: 224.71px;
+    width: 318px;
 }
 .project-post-info .info-text {
     text-align: center;
@@ -3912,6 +3920,8 @@ blockquote footer a {
 }
 .req-page-area .img-responsive {
     display: inline-block;
+    height: 210px;
+    width: 367px;
 }
 .req-page-area form .form-control {
     margin-bottom: 20px;
@@ -5468,10 +5478,11 @@ blockquote footer a {
     position: relative;
 }
 .quality-wrapper h2 {
-    font: 300 2.8em/1.3em "Open Sans", sans-serif;
+    font: 150 1.8em/1.3em "Open Sans", sans-serif;
     margin: 0 0 1.2em;
     padding: 0;
     color: #242424;
+    font-weight: bold;
 }
 .quality-wrapper p {
     color: #6c6c6c;
@@ -6652,14 +6663,13 @@ h1.bnrfnt50 {
 }
 h1.bnrfnt40 {
     font-size: 40px;
-    padding-top: 260px;
-    text-align: left;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.3px!important;
     margin-bottom: 20px;
+    padding-top: 240px;
 }
 h1.bnrfnt50 span.color1 {
     color: #f8c12c;
@@ -6711,7 +6721,7 @@ h1.bnrfnt50 span.color3 {
 }
 #minimal-bootstrap-carousel.ver_new_1_slider .carousel-caption .thm-container .box.valign-top .content 
 {
-    padding-top: 165px;
+    padding-top: 0px;
 }
 ul.banner_btm_list {
     width: 100%;

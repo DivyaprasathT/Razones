@@ -570,8 +570,7 @@
         background-position: center top;
         background-repeat: no-repeat;
         background-size: 450px;
-        min-height: 240px;
-
+        min-height: 148px;
     }
     #minimal-bootstrap-carousel.ver_new_2_slider .carousel-inner .carousel-caption .thm-container .box.valign-middle {
         padding-top: 200px;
@@ -583,9 +582,8 @@
         text-align: center;
     }
     #minimal-bootstrap-carousel .carousel-caption h1, .our-sol-wrapper p {
-        font-size: 25px !important;
-        text-align: center;
-        padding-top: 20px;
+        font-size: 18px !important;
+        padding: 20px;
     }
     .single-service-page img {
         width: 100%;
@@ -620,7 +618,6 @@
     .fullwidth-slider3.owl-carousel .owl-item img
     {
         width: 100% ;
-        min-height: 500px;
     }
     #minimal-bootstrap-carousel.ver_new_4_slider .carousel-inner .item
     {
@@ -709,7 +706,6 @@
     .logo-wrapper
     {
         padding: 25px 0 15px ;
-        display: none;
     }
     .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li a
     {
@@ -820,12 +816,8 @@
     .service-content {
         padding: 0 15px;
     }
-    .owl-carousel img {
+    .owl-carousel .owl-item img {
         width: auto;
-    }
-    .owl-item img {
-        width: auto;
-        height: 300px;
     }
     .sec-padding {
         padding: 3em 0;
